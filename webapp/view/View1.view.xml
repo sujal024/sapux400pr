@@ -1,0 +1,19 @@
+<mvc:View controllerName="demo.practice.practice.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App>
+    <Page id="page" title="{i18n>title}">
+        <VBox
+        class = "sapUiSmallMargin"
+        justifyContent="Center"
+        alignItems="Center">
+            <Title text="Dynamic Buttton Binding" class = "sapUiSmallMarginBottom"/>
+
+            <Button text="{/buttonText}"
+            type = "Emphasized"
+            press = "onButtonPress"
+            width="12rem"/>        
+         </VBox>
+    </Page>
+    </App>
+</mvc:View>
